@@ -1,0 +1,8 @@
+{
+  "name": "Masud Digital Hub ",
+  "description": "Masud Digital Hub (Work Partner) - Official job portal and career empowerment app for West Bengal and Bihar with direct employer contact and built-in CV Maker.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

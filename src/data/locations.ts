@@ -1,0 +1,100 @@
+import { StateType } from '../types';
+
+export const SUPPORTED_STATES: StateType[] = ['West Bengal', 'Bihar'];
+
+export const DISTRICTS_BY_STATE: Record<StateType, string[]> = {
+  'West Bengal': [
+    'Alipurduar',
+    'Bankura',
+    'Birbhum',
+    'Cooch Behar',
+    'Dakshin Dinajpur',
+    'Darjeeling',
+    'Hooghly',
+    'Howrah',
+    'Jalpaiguri',
+    'Jhargram',
+    'Kalimpong',
+    'Kolkata',
+    'Malda',
+    'Murshidabad',
+    'Nadia',
+    'North 24 Parganas',
+    'Paschim Bardhaman',
+    'Paschim Medinipur',
+    'Purba Bardhaman',
+    'Purba Medinipur',
+    'Purulia',
+    'South 24 Parganas',
+    'Uttar Dinajpur'
+  ],
+  'Bihar': [
+    'Araria',
+    'Arwal',
+    'Aurangabad',
+    'Banka',
+    'Begusarai',
+    'Bhagalpur',
+    'Bhojpur',
+    'Buxar',
+    'Darbhanga',
+    'East Champaran (Motihari)',
+    'Gaya',
+    'Gopalganj',
+    'Jamui',
+    'Jehanabad',
+    'Kaimur (Bhabua)',
+    'Katihar',
+    'Khagaria',
+    'Kishanganj',
+    'Lakhisarai',
+    'Madhepura',
+    'Madhubani',
+    'Munger',
+    'Muzaffarpur',
+    'Nalanda',
+    'Nawada',
+    'Patna',
+    'Purnia',
+    'Rohtas',
+    'Saharsa',
+    'Samastipur',
+    'Saran (Chhapra)',
+    'Sheikhpura',
+    'Sheohar',
+    'Sitamarhi',
+    'Siwan',
+    'Supaul',
+    'Vaishali',
+    'West Champaran (Bettiah)'
+  ]
+};
+
+export const COMMON_SKILLS = [
+  'Electrician / Wiring',
+  'Commercial Driving (LMV / HMV)',
+  'Delivery & Logistics (Bike/Van)',
+  'Security Guard / Supervisor',
+  'Retail Store Sales & Billing',
+  'Plumbing & Pipe Fitting',
+  'Welding & Fabrication',
+  'Carpentry & Furniture Assembly',
+  'Basic Computer / Data Entry',
+  'Tailoring & Garment Stitching',
+  'Warehouse Inventory & Packing',
+  'Machine Operator (CNC / Lathe)',
+  'Cook / Food Service Attendant',
+  'Housekeeping & Maintenance',
+  'Customer Support / Telecalling',
+  'Solar Panel Installation'
+];
+
+export const EDUCATION_LEVELS = [
+  'Below 10th Standard',
+  '10th Pass (Madhyamik / Matric)',
+  '12th Pass (Higher Secondary / Intermediate)',
+  'ITI Certificate / Vocational Diploma',
+  'Polytechnic Diploma',
+  'Graduate (BA, B.Sc, B.Com, etc.)',
+  'Post Graduate / Master Degree'
+];
