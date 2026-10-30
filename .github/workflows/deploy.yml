@@ -11,15 +11,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
+      - name: Install Bun
+        uses: oven-sh/setup-bun@v1
 
-      - name: Install & Build
+      - name: Install Dependencies and Build
         run: |
-          npm install
-          npm run build
+          bun install
+          bun run build
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
@@ -39,3 +37,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        
